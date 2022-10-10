@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
+
+.country_container {
+  width: 300px;
+  height: 340px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flag_container {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  display: flex;
+  background-size: cover;
+}
+
+.btn_container {
+  border-radius: 20px;
+  width: 300px;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.more_info {
+  height: 35px;
+  width: 35px;
+  background-color: #000000da;
+  box-shadow: 6px 6px 11px 0px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.more_info img {
+  transition: transform 0.5s;
+  opacity: 80%;
+}
+
+.more_info img:hover {
+  transform: scale(1.1)
+}
+
+
+.flag_container img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+  
+}
+
+.infoContainer {
+  background-color: #7d7e80;
+  height: 140px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.infoContainer h3,h4 {
+  margin: 0;
+}
+
+.circle_data {
+  display: flex;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  
+}
+
+.circle_data div {
+  margin-top: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.circle_data div span {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 10px;
+  color: #ff0000;
+  background-color: #272727;
+  box-shadow: 6px 6px 11px 0px rgba(0,0,0,0.1);
+  border-radius: 50px;
+}
+
+.name_country  {
+  height: 43px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name_country h3{
+  font-size: 15px;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+.flag_circle {
+  display: flex;
+  width: auto;
+  height: 38px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.continent_info {
+  margin-left: 15px;
+  text-align: start;
+}
+
+.continent_info label {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.continent_info p {
+  margin: 0;
+  font-size: 15px;
+  margin-left: 2px;
+  font-weight: 600;
+}
+
+.flag {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: hwb(0 0% 100% / 0.336);
+  box-shadow: 6px 6px 11px 0px rgba(0,0,0,0.1);
+}
+
+
+

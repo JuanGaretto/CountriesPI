@@ -1,0 +1,184 @@
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;  
+  height: auto;
+  background-color: #181818;
+}
+
+.bothome {
+  height: 95px;
+  position: absolute;
+  display: inline-flex;
+  left: 200px;
+  top: 0px;
+  
+}
+.bothome:hover {
+  height: 99px;
+  opacity: 90%;
+}
+
+.btn_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Monserrat";
+  font-size: 25px;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+  
+}
+
+.input_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+
+.logoInputContainer {
+  display: flex;
+  margin-left: 40px; 
+}
+
+.title {
+  font-weight: 700;
+  align-self: center;
+  margin: 0 15px 0 0;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  border-color: red;
+  top: 25px;
+  left: 15px;
+  font-size: x-large;
+  
+}
+
+.link {
+  text-decoration: none;
+  position: absolute;
+  left: 150px;
+  top: -45px;
+ 
+}
+
+.title:link {
+  text-decoration: none;
+}
+
+.title:visited {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.activity {
+  font-size: large;
+  padding: 15px;
+  border-radius: 50px;
+  font-family:"Monserrat";
+  font-weight: bold;
+  background-color: #ffffff88;
+  border-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: relative;
+  text-align: center;
+  bottom: -100px;
+  font-weight: 250px;
+  max-width: 250px;
+  top: 10px;
+  right: 570px;  
+ 
+}
+.activity:hover{
+  background-color: #fc0b0b;
+  border-color: rgb(0, 0, 0);
+  color: antiquewhite;
+}
+
+
+.searchBar {
+  font-size: large;
+  padding: 15px;
+  border-radius: 50px;
+  font-family:"Monserrat";
+  font-weight: bold;
+  background-color: #ffffff88;
+  border-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: relative;
+  text-align: center;
+  bottom: -100px;
+  font-weight: 250px;
+  max-width: 250px;
+  top: 10px;
+  left: 1420px;
+  
+}
+.searchBar:hover{
+  background-color: #fc0b0b;
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+.selectInput {
+  margin: 0;
+  padding: 5px 10px 10px 5px;
+  color: #000000;
+  background-color: transparent;
+  width: 170px;
+  border: none;
+  border-radius: 15px;
+  font-family: "Monserrat";
+  font-weight: 600;
+ 
+  
+}
+
+.input_bg {
+  background-color: #ffffff88;
+  border-color: #ffffff88;
+  border-radius: 50px;
+  display: flex;
+  padding: 5px;
+  position: relative;
+  right: 500px;
+}
+
+.labelAndSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 15px;
+  padding: 2px 20px;
+  border-radius: 50px;
+  transition: background-color 0.5s;  
+}
+
+.labelAndSelect:hover {
+  background-color: #fc0b0b;
+  border-color: #ffffff88;
+}
+
+label {
+  font-weight: bold;
+  margin: 10px 10px 0 8px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.pru{ 
+  width: 100px;
+  padding: 10px; 
+  margin-left:-70px
+ 
+}

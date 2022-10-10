@@ -1,0 +1,11 @@
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("../../assets/img/400645.jpg");
+  padding: 20px;
+}
+
+.countries {
+  padding-top: 20px;
+}

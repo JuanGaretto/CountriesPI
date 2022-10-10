@@ -1,0 +1,34 @@
+.container{
+    width: auto;
+    margin: auto;     
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #6363638e;
+}
+
+.footer span{
+    font-weight: 700;
+}
+
+
+
+.footerDiv{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.footerInfo{
+    line-height: .5;
+}
+
+.footerLink a{
+    color: white;
+   
+}

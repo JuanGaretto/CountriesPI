@@ -1,0 +1,145 @@
+*{
+  font-weight: 600; 
+}
+
+.country_container {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center; 
+  padding: 20px;
+  background-image: url("../../assets/img/400645.jpg"); 
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
+.banner {
+  width: auto;
+  display: flex; 
+  position: relative; 
+  min-height: 425px;
+  background-color: #d4d1d1c2;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 50px;    
+  left: -450px;
+ 
+}
+
+.container_img {
+  width: 400px;
+  height: 340px;
+  margin-right: 20px;
+}
+
+.container_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.main_info {
+  width: auto;
+  margin-left: 20px;
+}
+
+.country_name {
+  background-color: #3c3c3dd7;
+  text-transform: capitalize;
+  text-align: start;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.titleInfo {
+  color: white;
+}
+
+.info {
+  background-color: #ffffff88;
+  color: #000000;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: start;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  border-color: rgb(255, 255, 255);
+}
+
+.separator {
+  width: 2px;
+  height: 330px;
+  margin-top: 5px;
+  background-color: #ffffff88;
+  
+  
+}
+
+.population {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.boxModel {
+  background-color: #ffffff88;
+  border-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 50px;  
+  min-width: 80px;
+  margin-right: 10px;
+  height: fit-content; 
+  
+}
+
+.value {
+  padding: 10px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  text-decoration: underline wavy 1px #fe1919;
+  color: #000000fd;
+}
+
+.checkNoCheck {
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.carousel_info {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.currencies {
+  text-align: start;
+}
+
+.arrow {
+  color: #000000;
+}
+
+.symbol {
+  background-color: #ffffff88;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+.cca3 {
+  margin-bottom: 0;
+  margin-left: 10px;
+  text-align: start;
+  font-weight: 600;
+  color: #929292;
+}
+

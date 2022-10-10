@@ -1,0 +1,12 @@
+export { default as NotFound } from './NotFound/NotFound';
+export { default as CountryDetail } from './countryDetail/CountryDetail';
+export { default as Activity } from './countryDetail/activities/Activity';
+export { default as Home } from './home/Home';
+export { default as Card } from './home/cards/Card';
+export { default as NoCountry } from './home/noCountry/NoCountry';
+export { default as Pagination } from './home/pagination/Pagination';
+export { default as Landing } from './landing/Landing';
+export { default as ModalActivity } from './modalActivity/ModalActivity';
+export { default as Error } from './modalActivity/errors/Error';
+export { default as Nav } from './nav/Nav';
+export { default as ActivityList } from './nav/activityList/ActivityList';
