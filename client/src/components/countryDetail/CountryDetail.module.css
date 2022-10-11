@@ -105,13 +105,15 @@
   margin-right: 10px;
   letter-spacing: 1px;
   text-decoration: underline wavy 1px #fe1919;
-  color: #000000fd;
+  color: #000000fd; 
 }
 
 .checkNoCheck {
   width: 30px;
   margin-top: 5px;
   margin-right: 10px;
+  background-color: #ffffff00;
+  border-radius: 45px;
 }
 
 .carousel_info {
@@ -132,7 +134,7 @@
   background-color: #ffffff88;
   padding: 5px 10px;
   border-radius: 50px;
-  margin-left: 5px;
+  margin-left: 5px;  
 }
 
 .cca3 {

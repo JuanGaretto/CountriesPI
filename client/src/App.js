@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/countries">
           <Nav />
           <Home />
-        </Route>
+        </Route>        
         {!detailed_country.msg && (
           <Route path="/countries/:id">
             <Nav />
@@ -35,6 +35,7 @@ function App() {
         )}
         <Route path="*">
           <NotFound/>
+          <Footer/>
         </Route>
       </Switch>
       

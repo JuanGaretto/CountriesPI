@@ -4,8 +4,8 @@ import { useParams } from "react-router-dom";
 import { getCountryByID } from "../../redux";
 import style from "./CountryDetail.module.css";
 import Activity from "./activities/Activity";
-import checkmark from "../../assets/img/checkmark.webp";
-import crossmark from "../../assets/img/crossmark.webp";
+import j from "../../assets/img/J.png";
+import x from "../../assets/img/x.png";
 
 const CountryDetail = () => {
   const {
@@ -72,7 +72,7 @@ const CountryDetail = () => {
               <div className={style.boxModel}>Independiente</div>
               <div className={style.checkNoCheck}>
                 <img
-                  src={independent === true ? checkmark : crossmark}
+                  src={independent === true ? j : x}
                   alt="independent"
                 />
               </div>
