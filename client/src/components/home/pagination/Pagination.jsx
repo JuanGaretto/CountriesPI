@@ -7,7 +7,7 @@ const Pagination = (props) => {
   const { page, total } = props
   const dispatch = useDispatch();
 
-  const numberPages = Math.ceil((total/15));
+  const numberPages = Math.ceil((total/10));
 
   const paginatorArr = [...Array(numberPages).keys()];
 
@@ -24,7 +24,7 @@ const Pagination = (props) => {
         <button className={page === i ? `${style.pag_button} ${style.active}` : style.pag_button}
         value={i} key={i} onClick={setPage}>{i+1}</button>
       ))}
-      <button disabled={page === 16 || paginatorArr.length <= 1}  className={style.pag_button} value={page+1} onClick={setPage}>{'>'}</button>
+      <button disabled={page === 24 || paginatorArr.length <= 1}  className={style.pag_button} value={page+1} onClick={setPage}>{'>'}</button>
       <button className={style.pag_button} value={numberPages-1} onClick={setPage}>{'>|'}</button>
     </div>
     </div>

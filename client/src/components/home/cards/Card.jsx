@@ -2,8 +2,7 @@ import style from "./Card.module.css";
 import { Link } from "react-router-dom";
 import info from '../../../assets/img/info.webp'
 
-const Card = (props) => {
-  let currency = Object.keys(props.curr).toString().slice(0, 3);
+const Card = (props) => {  
 
   return (
     <div id={props.ID} className={style.country_container}>

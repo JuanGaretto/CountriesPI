@@ -14,11 +14,12 @@ const Home = () => {
     dispatch(getAllCountries());
   }, [dispatch, pathname, created]);
 
-  const offset = page * 15;
-  const limit = offset + 15;
+  
+  const offset = page === 0 ? page * 9 : page * 10;
+  const limit = page ===0 ? offset + 9: offset + 10;
   let current = filtered.slice(offset, limit);
 
-  if(current.length < 10) current = filtered.slice(0,limit)
+
 
   return (
     <div className={style.countries}>
