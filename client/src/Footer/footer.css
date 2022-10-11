@@ -26,9 +26,12 @@
 
 .footerInfo{
     line-height: .5;
+   position: relative;
+   left: -70px;
 }
 
 .footerLink a{
     color: white;
-   
+    position: relative;
+    left: -70px;
 }
