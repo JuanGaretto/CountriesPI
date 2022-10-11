@@ -23,7 +23,7 @@ router.post('/', async (req,res) => {
   const promises = posts.map( p => p.createActivity({name: capitalized,difficulty,duration,season}));
   await Promise.all(promises);
 
-  res.status(200).json({msg:`Activity created and associated to countries`});
+  res.status(200).json({msg:`Actividad creada y asociada al pais/paises seleccionados`});
 });
 
 module.exports = router;
