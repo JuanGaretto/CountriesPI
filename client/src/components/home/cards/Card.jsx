@@ -25,9 +25,7 @@ const Card = (props) => {
           <div>
             <span className={style.country}>{props.id}</span>
           </div>
-          <div>
-            <span className={style.curr}>Moneda· {currency}</span>
-          </div>
+         
         </div>
 
         <div className={style.flag_circle}>
@@ -35,7 +33,7 @@ const Card = (props) => {
             <label htmlFor="continent">Continente:</label> {props.continent}
             
           </div>
-          <span className={style.flag}>{props.flag}</span>
+          
         </div>
       </div>
     </div>

@@ -4,6 +4,8 @@
   justify-content: center;
   background-image: url("../../assets/img/400645.jpg");
   padding: 20px;
+  background-size:cover;
+  background-attachment: fixed;
 }
 
 .countries {

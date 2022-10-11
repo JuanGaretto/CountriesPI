@@ -6,6 +6,7 @@
   margin: 10px;
   display: flex;
   flex-direction: column;
+
 }
 
 .flag_container {
@@ -14,6 +15,7 @@
   background-position: center;
   display: flex;
   background-size: cover;
+  
 }
 
 .btn_container {
@@ -87,10 +89,12 @@
   font-size: 13px;
   font-weight: 600;
   padding: 7px 10px;
-  color: #ff0000;
+  color: #ffffff;
   background-color: #272727;
   box-shadow: 6px 6px 11px 0px rgba(0,0,0,0.1);
   border-radius: 50px;
+  position: relative;
+  left: 116px;
 }
 
 .name_country  {
@@ -118,6 +122,8 @@
 .continent_info {
   margin-left: 15px;
   text-align: start;
+  position: relative;
+  left: 65px;
 }
 
 .continent_info label {
@@ -138,8 +144,9 @@
   margin-right: 15px;
   padding: 5px 10px;
   border-radius: 20px;
-  background-color: hwb(0 0% 100% / 0.336);
+  background-color: #272727;
   box-shadow: 6px 6px 11px 0px rgba(0,0,0,0.1);
+  color: white;
 }
 
 

@@ -10,6 +10,7 @@
   background-image: url("../../assets/img/crear.jpg");
   background-size:cover;
   background-attachment: fixed;
+  color: white;
  
 }
 
@@ -22,7 +23,7 @@
   z-index: 2;
   margin-top: 100px;
   overflow: auto;
-  padding: 10px;
+  padding: 10px;  
 }
 
 .topBtn {
@@ -38,17 +39,17 @@
   border-radius: 40px;
   padding: 10px 20px;
   border: none;
-  background-color: transparent;
-  border: 1px solid #fa3535;
-  color: #fa3535;
+  background-color: #ffffff88;
+  border: 1px solid #ffffff;
+  color: #000000;
   font-weight: 500;
   cursor: pointer;
 }
 
 .topBtn button:hover {
-  transition: 0.5s;
-  background-color: #fa3535;
-  color: white;
+  background-color: #fc0b0b;
+  border-color: rgb(0, 0, 0);
+  color: antiquewhite;
 }
 
 .input_style {
@@ -118,14 +119,15 @@ input[type=radio] {
   padding: 5px;
   background: transparent;
   border: 2px solid  #bec0ce;
-  cursor: pointer;
-}
+  cursor: pointer; 
+  }
 
 input[type=radio]:checked {
   background:#334eff
 }
 
 .submit {
+  background-color: white;
   border-radius: 40px;
   padding: 15px;
   width: 85%;
@@ -135,7 +137,7 @@ input[type=radio]:checked {
   color: white;
   font-weight: 500;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.5s;  
 }
 
 .select option {
@@ -150,7 +152,7 @@ input[type=radio]:checked {
   align-items: center;
 }
 
-.addedCountries span {
+.addedCountries span {  
   font-weight: 600;
   background-color: #3a3b3c;
   padding: 10px;
@@ -159,6 +161,7 @@ input[type=radio]:checked {
   border-radius: 20px;
   margin-bottom: 20px;
   cursor: pointer;
+  color:white;
 }
 
 .addedCountries span:hover {
@@ -169,10 +172,10 @@ input[type=radio]:checked {
 
 button:disabled,
 button[disabled]{
-  transition: 0.5s;
-  background-color: #fa3535;
-    color: #ffff;
-    cursor: not-allowed;
+  transition: 0.5s; 
+  background-color: #ffffff88;
+  color: rgb(0, 0, 0);
+  cursor: not-allowed;   
 }
 
 .done {

@@ -9,26 +9,25 @@ import { useEffect } from "react";
 export const validateInputs = (input) => {
   const { name, difficulty, duration } = input;
   let errors = {};
-  if(name.length > 15 && name !== "") errors.name = 'Max length exceeded';
-  if(name.length < 2 && name !== "") errors.name = 'Min length almost to be two';
+  if(name.length > 20 && name !== "") errors.name = 'Longitud Maxima excedida';
+  if(name.length < 2 && name !== "") errors.name = 'Longitud minima es de 2';
 
 
-  if(difficulty !== "" && isNaN(parseInt(difficulty))) errors.difficulty = 'Difficulty need to be number'
-  if(difficulty !== "" && difficulty.length > 1) errors.difficulty = 'Min 1 and Max 5'
-  if(parseInt(difficulty) < 1) errors.difficulty = 'Min difficulty is one';
-  if(parseInt(difficulty) > 5) errors.difficulty = 'Max difficulty is five';
+  if(difficulty !== "" && isNaN(parseInt(difficulty))) errors.difficulty = 'La dificultad necesita ser un numero'
+  if(difficulty !== "" && difficulty.length > 1) errors.difficulty = 'Numero minimo 1 y numero maximo 5'
+  if(parseInt(difficulty) < 1) errors.difficulty = 'Numero minimo es 1';
+  if(parseInt(difficulty) > 5) errors.difficulty = 'Numero maximo es 5';
 
-  if(duration.length > 5) errors.duration = 'Max length exceeded';
-  if(duration.length && duration[2] !== ':') errors.duration = 'The format is hh:mm'
-  if(duration.length && !duration[3]) errors.duration = 'The format is hh:mm';
-  if(duration.length && !duration[4]) errors.duration = 'The format is hh:mm';
-  if(parseInt(duration[0]+duration[1]) > 24) errors.duration = 'Max hours is 24'
-  if(parseInt(duration[3]+duration[4]) > 59) errors.duration = 'Max minutes is 59'
-  if(duration[0]+duration[1] === '00' && parseInt(duration[3]+duration[4]) < 30) errors.duration = 'Min minutes is 30'
-  if(duration[0] && isNaN(parseInt(duration[0]))) errors.duration = `"${duration[0]}" need to be a number`;
-  if(duration[1] && isNaN(parseInt(duration[1]))) errors.duration = `"${duration[1]}" need to be a number`;
-  if(duration[3] && isNaN(parseInt(duration[3]))) errors.duration = `"${duration[3]}" need to be a number`;
-  if(duration[4] && isNaN(parseInt(duration[4]))) errors.duration = `"${duration[4]}" need to be a number`;
+  if(duration.length > 5) errors.duration = 'Longitud Maxima excedida';
+  if(duration.length && duration[2] !== ':') errors.duration = 'El formato es hh:mm'
+  if(duration.length && !duration[3]) errors.duration =  'El formato es hh:mm';
+  if(duration.length && !duration[4]) errors.duration =  'El formato es hh:mm';
+  if(parseInt(duration[0]+duration[1]) > 24) errors.duration = 'Maximas horas es de 24'
+  if(parseInt(duration[3]+duration[4]) > 59) errors.duration = 'Maximos minutos es de 59'  
+  if(duration[0] && isNaN(parseInt(duration[0]))) errors.duration = `"${duration[0]}" necesita ser un número`;
+  if(duration[1] && isNaN(parseInt(duration[1]))) errors.duration = `"${duration[1]}" necesita ser un número`;
+  if(duration[3] && isNaN(parseInt(duration[3]))) errors.duration = `"${duration[3]}" necesita ser un número`;
+  if(duration[4] && isNaN(parseInt(duration[4]))) errors.duration = `"${duration[4]}" necesita ser un número`;
 
   return errors;
 }
@@ -37,7 +36,7 @@ export const validateCountries = (input) => {
   const {countries} = input;
   let errors = {};
 
-  if(countries.length > 3) errors.countries = 'Cant add more than three';
+  if(countries.length > 3) errors.countries = 'No puedes agregar más de 3 paises';
   return errors;
 }
 

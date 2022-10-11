@@ -9,8 +9,9 @@
   flex-direction: column;
   justify-content: center;
   margin: 0;
-  background: #131313;
+  background: #313131;
   letter-spacing: -7px;
+  color: red;
 }
 
 .glitch{
@@ -78,5 +79,25 @@
 .text {
   letter-spacing: 2px;
   font-size: 30px;
+  animation: glitch  1s linear infinite;
 }
 
+
+.butt{
+  animation: glitch  1.5s linear infinite;
+  font-size: 20px;
+  position: relative;
+  width: 190px;
+  height: 35px;
+  border-radius: 50px;
+  border-color: white;
+  background-color: #ffffff88;
+  top: 50px;
+  font-family: 'IBM Plex Mono';
+  color: white;
+}
+.butt:hover{
+  background-color: #ffffff;
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}

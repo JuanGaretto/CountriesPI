@@ -137,9 +137,7 @@
   border: none;
   border-radius: 15px;
   font-family: "Monserrat";
-  font-weight: 600;
- 
-  
+  font-weight: 600;  
 }
 
 .input_bg {
@@ -179,6 +177,5 @@ label {
 .pru{ 
   width: 100px;
   padding: 10px; 
-  margin-left:-70px
- 
+  margin-left:-70px 
 }
