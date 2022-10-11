@@ -10,8 +10,8 @@
   background-image: url("../../assets/img/crear.jpg");
   background-size:cover;
   background-attachment: fixed;
-  color: white;
- 
+  background-position: 0px;
+  color: white; 
 }
 
 .modalContainer {
