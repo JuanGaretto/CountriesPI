@@ -40,10 +40,15 @@
 .more_info img {
   transition: transform 0.5s;
   opacity: 80%;
+  
 }
 
 .more_info img:hover {
-  transform: scale(1.1)
+  transform: scale(1.1) 
+  
+}
+.more_info:hover{
+  background-color: red;
 }
 
 

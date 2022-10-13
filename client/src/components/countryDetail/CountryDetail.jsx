@@ -21,7 +21,7 @@ const CountryDetail = () => {
     Activities,
     independent,
   } = useSelector((state) => state.detailed_country);
-  const detailedCountry = useSelector(state => state.detailedCountry)
+  
   const {created} = useSelector(state => state)
 
   const cleanLanguages = [];
