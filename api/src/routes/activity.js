@@ -9,10 +9,10 @@ router.get('/', async (req,res) => {
 })
 
 router.post('/', async (req,res) => {
-  const { countries , name , difficulty, duration, season} = req.body;
+  const { countries , name , difficulty, duration, season} = req.body; //Datos que necesito pedir
   const capitalized = name[0].toUpperCase() + name.substring(1).toLowerCase();
 
-  const posts = await Promise.all(
+  const posts = await Promise.all( //Armo una variable que dentro tendra una resolucion de promesas
     countries.map( async (code) => {
       return await Country.findByPk(code, {
         include: Activity
